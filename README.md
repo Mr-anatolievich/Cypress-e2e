@@ -4,6 +4,7 @@ How to use Jenkins CI with Cypress ?
 1. download jenkins.war https://www.jenkins.io/download/
 2. put on .war file in the folder of our project
 3. in command line - java -jar jenkins.war -httpPort=8080 --enable-future-java
+(it's also working if you have jenkinse file inside in project folder, but if you setup jenkinse for windows or linux.....)
 
 If we want to run a first test, we should:
 1. create a new job/build
